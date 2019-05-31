@@ -1,7 +1,7 @@
 # React
 
 - Components State, Props & [Lifecycle](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-- [React.Component](https://reactjs.org/docs/react-api.html#reactcomponent) / [React.PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)
+- React.Component(https://reactjs.org/docs/react-api.html#reactcomponent) / [React.PureComponent](https://reactjs.org/docs/react-api.html#reactpurecomponent)
 - How to change parent state from child component?
 - Which one of the following code should I use? 
 ```javascript
