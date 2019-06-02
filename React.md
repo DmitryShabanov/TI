@@ -5,40 +5,40 @@
 - How to change parent state from child component?
 - Which one of the following code should I use?
 
-```javascript
-class Button extends Component {
-  render() {
-    return <button onClick={() => alert('boom')}>Alert</button>;
+  ```javascript
+  class Button extends Component {
+    render() {
+      return <button onClick={() => alert('boom')}>Alert</button>;
+    }
   }
-}
-```
+  ```
 
-or
+  or
 
-```javascript
-class Button extends Component {
-  onClick = () => {
-    alert('boom');
-  };
+  ```javascript
+  class Button extends Component {
+    onClick = () => {
+      alert('boom');
+    };
 
-  render() {
-    return <button onClick={this.onClick}>Alert</button>;
+    render() {
+      return <button onClick={this.onClick}>Alert</button>;
+    }
   }
-}
-```
+  ```
 
 - [React.Fragment](https://reactjs.org/docs/react-api.html#reactfragment), [Refs](https://reactjs.org/docs/glossary.html#refs)
 
-```javascript
-const MyComponent = () => (
-  <p>
-    First paragraph
-  </p>
-  <p>
-    Second paragraph
-  </p>
-);
-```
+  ```javascript
+  const MyComponent = () => (
+    <p>
+      First paragraph
+    </p>
+    <p>
+      Second paragraph
+    </p>
+  );
+  ```
 
 - [Higher-Order Components (HOCs)](https://reactjs.org/docs/higher-order-components.html), [Render Proprs](https://reactjs.org/docs/render-props.html)
 - Component context and providers creation [(link)](https://reactjs.org/docs/context.html)
