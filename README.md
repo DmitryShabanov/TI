@@ -1,2 +1,3 @@
 # TI
-Technical interview questions
+
+Front-End (JS, React, markup) technical interview questions
