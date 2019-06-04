@@ -32,6 +32,7 @@ Front-End (JS, React, markup) technical interview questions
 - ESLint
 - Stylelint
 - Testing
+- what is package-lock.json?
 
 ## Practical Tasks
 
